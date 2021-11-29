@@ -413,6 +413,9 @@ With the use of [torchsummary](https://pypi.org/project/torch-summary/), the cus
 </p>
 </details>
 
+## Dataset
+The test dataset can be downloaded from Google Drive: [link](https://drive.google.com/file/d/1SbGLV-Cvdd-tOthNm1A48SvV-ckoCNmo/view?usp=sharing) 
+
 ## Requirements
 It is recommended to create python **virtual environment** and configure it with `pip install -r requirements.txt`
 <details><summary>requirements.txt</summary>
