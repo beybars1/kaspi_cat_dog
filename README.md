@@ -21,7 +21,7 @@ the [output.json](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/out
 
 ## Neural Network Architecture
 With the use of [torchsummary](https://pypi.org/project/torch-summary/), the custom 121-layer DenseNet model can be visualized:
-<details><summary>requirements.txt</summary>
+<details><summary>NN MODEL ARCHITECTURE</summary>
 <p>
 
         ----------------------------------------------------------------
