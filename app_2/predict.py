@@ -19,7 +19,8 @@ def predict(json_file):
 
     for i, batched_dict in enumerate(dataloader['predict']):
 
-        model_path = 'catvdog.pth'
+        model_path = './app_2/utils/catvdog.pth'
+        #model_path = 'catvdog.pth'
         model = load_model(model_path)
         model.eval()
 
