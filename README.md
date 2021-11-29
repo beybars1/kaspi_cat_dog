@@ -10,7 +10,7 @@ The neural network model architecture is based on the 121-layer DenseNet, implem
 
 ## Project Details
 Project's main tasks
-- Web scrape 500 images of cats and dogs for each class from the open-source ([code](https://github.com/beybars1/kaspi_cat_dog/blob/master/app_2/image_web_scraper.py))
+- Web scrape 500 images of cats and dogs for each class from the open-source ([image_web_scraper.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/app_2/image_web_scraper.py))
 - Convert retrieved 1000 images to the BASE64 format and store in the [input.json](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/input.json)
 as well as corresponding image names (aka **ID**)
 - Prepare and configure the pretrained 121-layer DenseNet model with a custom classification layer via PyTorch
