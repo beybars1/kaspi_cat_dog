@@ -88,3 +88,4 @@ Based on the results achieved by testing model with a 1000-image dataset, follow
 - Recall: 97.44%
 > NOTICE: It is assumed for dog class to be '1' and for cat class to be '0' during metrics calculation
 
+![image](https://github.com/beybars1/kaspi_cat_dog/blob/master/fig.png)
