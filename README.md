@@ -426,7 +426,7 @@ It is recommended to use a Docker container with all predefined dependencies via
 # pull the image from docker-hub
 docker pull beybars1/kaspi_cat_dog:first
 # run the container 
-docker run -p 5555:5555 python_kaspi
+docker run -p 5555:5555 beybars1/kaspi_cat_dog:first
 ```
 Then, run [test.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/test.py) by:
 ```
