@@ -417,7 +417,12 @@ With the use of [torchsummary](https://pypi.org/project/torch-summary/), the cus
 The test dataset can be downloaded from Google Drive: [link](https://drive.google.com/file/d/1SbGLV-Cvdd-tOthNm1A48SvV-ckoCNmo/view?usp=sharing) 
 
 ## Requirements
-It is recommended to create python **virtual environment** and configure it with `pip install -r requirements.txt`
+It is recommended to use a Docker container with all predefined dependencies via this command
+```
+docker pull beybars1/kaspi_cat_dog
+```
+
+Or you can create python **virtual environment** and configure it with `pip install -r requirements.txt`
 <details><summary>requirements.txt</summary>
 <p>
 
