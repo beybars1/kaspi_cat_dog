@@ -470,9 +470,9 @@ Or you can create python **virtual environment** and configure it with `pip inst
 ## Usage
 
 ###### REST API
-Run server at localhost (**PORT**: 5555) with [api.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/app_2/app.py) by:
+Run server at localhost (**PORT**: 5555) with [api.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/app_2/app.py) being in the `kaspi_cat_dog` folder by:
 ```
-python api.py
+python ./app2/api.py
 ```
 
 ###### API Access
