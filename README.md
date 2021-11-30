@@ -416,13 +416,31 @@ With the use of [torchsummary](https://pypi.org/project/torch-summary/), the cus
 ## Dataset
 The test dataset can be downloaded from Google Drive: [link](https://drive.google.com/file/d/1SbGLV-Cvdd-tOthNm1A48SvV-ckoCNmo/view?usp=sharing) 
 
-## Requirements
+## Usage Docker
+Firstly, clone this repository:
+```
+git clone https://github.com/beybars1/kaspi_cat_dog.git
+```
 It is recommended to use a Docker container with all predefined dependencies via this command
 ```
-docker pull beybars1/kaspi_cat_dog
+# pull the image from docker-hub
+docker pull beybars1/kaspi_cat_dog:first
+# run the container 
+docker run -p 5555:5555 python_kaspi
 ```
+Then, run [test.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/test.py) by:
+```
+python test.py
+```
+The resulting [output.json](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/output.json) is located at
+> kaspi_cat_dog/test/
 
-Or you can create python **virtual environment** and configure it with `pip install -r requirements.txt`
+## Usage Virtual Environment
+Firstly, clone this repository:
+```
+git clone https://github.com/beybars1/kaspi_cat_dog.git
+```
+Create python **virtual environment** and configure it with `pip install -r requirements.txt`
 <details><summary>requirements.txt</summary>
 <p>
 
@@ -467,8 +485,6 @@ Or you can create python **virtual environment** and configure it with `pip inst
 </p>
 </details>
 
-## Usage
-
 ###### REST API
 Run server at localhost (**PORT**: 5555) with [api.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/app_2/app.py) being in the `kaspi_cat_dog` folder by:
 ```
@@ -481,7 +497,7 @@ Run [test.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/test.py
 python test.py
 ```
 The resulting [output.json](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/output.json) is located at
-> kaspi_cat_dog/test/output.json
+> kaspi_cat_dog/test/
 
 ## Results
 Based on the results achieved by testing model with a 1000-image dataset, following metrics were retrieved:
