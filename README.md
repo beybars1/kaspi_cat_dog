@@ -491,3 +491,5 @@ Based on the results achieved by testing model with a 1000-image dataset, follow
 > NOTICE: It is assumed for dog class to be '1' and for cat class to be '0' during metrics calculation
 
 ![image](https://github.com/beybars1/kaspi_cat_dog/blob/master/fig.png)
+
+For a detailed perception refer to the [анализ_модели.xlsx](https://github.com/beybars1/kaspi_cat_dog/blob/master/%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8.xlsx)
