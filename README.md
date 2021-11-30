@@ -440,7 +440,7 @@ Firstly, clone this repository:
 ```
 git clone https://github.com/beybars1/kaspi_cat_dog.git
 ```
-Create python **virtual environment** and configure it with `pip install -r requirements.txt`
+Create python **venv**, activate it and configure it with `pip install -r requirements.txt`
 <details><summary>requirements.txt</summary>
 <p>
 
