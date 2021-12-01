@@ -1,3 +1,5 @@
+# converts images to the BASE64 format and creates an "input.json" file with IDs and image codes.
+
 import base64
 import os
 import json
