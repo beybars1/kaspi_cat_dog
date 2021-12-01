@@ -1,3 +1,5 @@
+# main web application file. Flask instance initialization, routing, requests are defined here.  
+
 from predict import *
 import os
 from flask import Flask, request
