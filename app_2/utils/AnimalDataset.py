@@ -1,3 +1,5 @@
+# custom dataset class that inherits from PyTorch Dataset class. it implements standard dataset methods for interaction with dataloader.
+
 import base64
 from io import BytesIO
 from torch.utils.data import Dataset
