@@ -1,3 +1,5 @@
+# testing file. creates POST request to local host with following input file, saves output.file
+
 import requests
 import json
 
