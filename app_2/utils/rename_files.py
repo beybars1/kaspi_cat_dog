@@ -1,3 +1,5 @@
+# renames images with "1, 2, 3, ... 1000".
+
 import os
 path = 'C:\\Users\\user\\PycharmProjects\\kaspi_cat_dog\\data\\cat'
 files = os.listdir(path)
