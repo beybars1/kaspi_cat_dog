@@ -1,3 +1,5 @@
+# make predictions. constructs transformation for the images, dataloader and output.json file.
+
 from utils.helpers import *
 from torchvision import transforms
 from utils.AnimalDataset import *
