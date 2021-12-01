@@ -1,3 +1,5 @@
+# supporting function to load the pretrained model's parameters and state_dict and update model structure, namely classifier for testing.
+
 import torch
 from torch import nn
 from torchvision import models
