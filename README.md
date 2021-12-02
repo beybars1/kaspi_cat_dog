@@ -432,7 +432,7 @@ Then, run [test.py](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/t
 ```
 python test.py
 ```
-You might need to install `requests, json` by `pip install requests, json`.
+You might need to install `requests, json` by `pip install requests json`.
 The resulting [output.json](https://github.com/beybars1/kaspi_cat_dog/blob/master/test/output.json) is located at
 > kaspi_cat_dog/test/
 
